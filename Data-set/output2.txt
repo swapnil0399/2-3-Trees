@@ -1,0 +1,79 @@
+Key 5 inserted
+Key 6 inserted
+Key 7 inserted
+Keys
+5 6 7 
+Tree
+(6,7) 
+5 6 7 
+Height 1
+Size 3
+Key 4 inserted
+Keys
+4 5 6 7 
+Tree
+(6,-) 
+(5,-) (7,-) 
+4 5 6 7 
+Height 2
+Size 4
+Key 8 inserted
+Key 9 inserted
+Key 6 already exists
+Key 7 already exists
+Keys
+4 5 6 7 8 9 
+Tree
+(6,8) 
+(5,-) (7,-) (9,-) 
+4 5 6 7 8 9 
+Height 2
+Size 6
+Key 10 inserted
+Key 11 inserted
+Keys
+4 5 6 7 8 9 10 11 
+Tree
+(8,-) 
+(6,-) (10,-) 
+(5,-) (7,-) (9,-) (11,-) 
+4 5 6 7 8 9 10 11 
+Height 3
+Size 8
+Key 3 inserted
+Key 4 already exists
+Key 12 inserted
+Key 13 inserted
+Keys
+3 4 5 6 7 8 9 10 11 12 13 
+Tree
+(8,-) 
+(6,-) (10,12) 
+(4,5) (7,-) (9,-) (11,-) (13,-) 
+3 4 5 6 7 8 9 10 11 12 13 
+Height 3
+Size 11
+Key 9 already exists
+Key 11 already exists
+Key 16 inserted
+Key 21 inserted
+Key 23 inserted
+Key 22 inserted
+Keys
+3 4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Tree
+(8,12) 
+(6,-) (10,-) (16,22) 
+(4,5) (7,-) (9,-) (11,-) (13,-) (21,-) (23,-) 
+3 4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Height 3
+Size 15
+Key 1 doesn't exist
+Key 2 doesn't exist
+Key 4 found
+Key 8 found
+Key 20 doesn't exist
+Key 16 found
+Key 12 found
+Key 13 found
+Key 14 doesn't exist

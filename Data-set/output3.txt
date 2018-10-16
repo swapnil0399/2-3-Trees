@@ -1,0 +1,81 @@
+Key 5 inserted
+Key 1 inserted
+Key 9 inserted
+Key 13 inserted
+Key 4 inserted
+Key 6 inserted
+Key 12 inserted
+Key 7 inserted
+Key 2 inserted
+Key 11 inserted
+Key 8 inserted
+Key 3 inserted
+Key 10 inserted
+Keys
+1 2 3 4 5 6 7 8 9 10 11 12 13 
+Tree
+(5,9) 
+(3,-) (7,-) (12,-) 
+(2,-) (4,-) (6,-) (8,-) (10,11) (13,-) 
+1 2 3 4 5 6 7 8 9 10 11 12 13 
+Height 3
+Key 13 deleted
+Keys
+1 2 3 4 5 6 7 8 9 10 11 12 
+Tree
+(5,9) 
+(3,-) (7,-) (11,-) 
+(2,-) (4,-) (6,-) (8,-) (10,-) (12,-) 
+1 2 3 4 5 6 7 8 9 10 11 12 
+Height 3
+Key 2 deleted
+Keys
+1 3 4 5 6 7 8 9 10 11 12 
+Tree
+(9,-) 
+(5,7) (11,-) 
+(3,4) (6,-) (8,-) (10,-) (12,-) 
+1 3 4 5 6 7 8 9 10 11 12 
+Height 3
+Key 1 deleted
+Keys
+3 4 5 6 7 8 9 10 11 12 
+Tree
+(9,-) 
+(5,7) (11,-) 
+(4,-) (6,-) (8,-) (10,-) (12,-) 
+3 4 5 6 7 8 9 10 11 12 
+Height 3
+Key 7 deleted
+Keys
+3 4 5 6 8 9 10 11 12 
+Tree
+(9,-) 
+(5,-) (11,-) 
+(4,-) (6,8) (10,-) (12,-) 
+3 4 5 6 8 9 10 11 12 
+Height 3
+Key 10 deleted
+Keys
+3 4 5 6 8 9 11 12 
+Tree
+(5,9) 
+(4,-) (6,8) (11,12) 
+3 4 5 6 8 9 11 12 
+Height 2
+Key 4 deleted
+Keys
+3 5 6 8 9 11 12 
+Tree
+(6,9) 
+(5,-) (8,-) (11,12) 
+3 5 6 8 9 11 12 
+Height 2
+Key 11 deleted
+Keys
+3 5 6 8 9 12 
+Tree
+(6,9) 
+(5,-) (8,-) (12,-) 
+3 5 6 8 9 12 
+Height 2

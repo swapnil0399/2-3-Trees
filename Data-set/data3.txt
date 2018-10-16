@@ -1,0 +1,45 @@
+I 5
+I 1
+I 9
+I 13
+I 4
+I 6
+I 12
+I 7
+I 2
+I 11
+I 8
+I 3
+I 10
+K
+B
+H
+D 13
+K
+B
+H
+D 2
+K
+B
+H
+D 1
+K
+B
+H
+D 7
+K
+B
+H
+D 10
+K
+B
+H
+D 4
+K
+B
+H
+D 11
+K
+B
+H
+E

@@ -1,0 +1,115 @@
+Key 5 inserted
+Key 6 inserted
+Key 7 inserted
+Key 4 inserted
+Key 8 inserted
+Key 9 inserted
+Key 6 already exists
+Key 7 already exists
+Key 10 inserted
+Key 11 inserted
+Key 3 inserted
+Key 4 already exists
+Key 12 inserted
+Key 13 inserted
+Key 9 already exists
+Key 11 already exists
+Key 16 inserted
+Key 21 inserted
+Key 23 inserted
+Key 22 inserted
+Keys
+3 4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Tree
+(8,12) 
+(6,-) (10,-) (16,22) 
+(4,5) (7,-) (9,-) (11,-) (13,-) (21,-) (23,-) 
+3 4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Height 3
+Size 15
+Key 1 doesn't exist
+Key 2 doesn't exist
+Key 4 found
+Key 8 found
+Key 20 doesn't exist
+Key 16 found
+Key 12 found
+Key 13 found
+Key 14 doesn't exist
+Key 3 deleted
+Keys
+4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Tree
+(8,12) 
+(6,-) (10,-) (16,22) 
+(5,-) (7,-) (9,-) (11,-) (13,-) (21,-) (23,-) 
+4 5 6 7 8 9 10 11 12 13 16 21 22 23 
+Height 3
+Size 14
+Key 6 deleted
+Tree
+(12,-) 
+(8,10) (16,22) 
+(5,7) (9,-) (11,-) (13,-) (21,-) (23,-) 
+4 5 7 8 9 10 11 12 13 16 21 22 23 
+Key 8 deleted
+Tree
+(12,-) 
+(7,10) (16,22) 
+(5,-) (9,-) (11,-) (13,-) (21,-) (23,-) 
+4 5 7 9 10 11 12 13 16 21 22 23 
+Key 10 deleted
+Tree
+(12,-) 
+(7,-) (16,22) 
+(5,-) (9,11) (13,-) (21,-) (23,-) 
+4 5 7 9 11 12 13 16 21 22 23 
+Key 11 deleted
+Tree
+(12,-) 
+(7,-) (16,22) 
+(5,-) (9,-) (13,-) (21,-) (23,-) 
+4 5 7 9 12 13 16 21 22 23 
+Key 12 deleted
+Tree
+(13,-) 
+(7,-) (22,-) 
+(5,-) (9,-) (16,21) (23,-) 
+4 5 7 9 13 16 21 22 23 
+Key 16 deleted
+Tree
+(13,-) 
+(7,-) (22,-) 
+(5,-) (9,-) (21,-) (23,-) 
+4 5 7 9 13 21 22 23 
+Key 21 deleted
+Tree
+(7,13) 
+(5,-) (9,-) (22,23) 
+4 5 7 9 13 22 23 
+Key 22 deleted
+Tree
+(7,13) 
+(5,-) (9,-) (23,-) 
+4 5 7 9 13 23 
+Key 24 doesn't exist
+Key 3 doesn't exist
+Key 6 doesn't exist
+Key 4 deleted
+Key 5 deleted
+Keys
+7 9 13 23 
+Tree
+(13,-) 
+(9,-) (23,-) 
+7 9 13 23 
+Height 2
+Size 4
+Key 3 doesn't exist
+Key 4 doesn't exist
+Key 5 doesn't exist
+Key 6 doesn't exist
+Key 7 found
+Key 8 doesn't exist
+Key 9 found
+Key 10 doesn't exist

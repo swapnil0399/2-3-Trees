@@ -86,7 +86,7 @@ public class TwoThreeTree {
 
     // Merge Root: If the root node has to split, it merges it
     // back to a single TreeNode
-    private void mergeRoot(int key) {
+    private void insertKey(int key) {
         // Create an array of Node of size 2
         // to capture the 2 nodes
         Node[] array = new Node[2];
@@ -109,7 +109,7 @@ public class TwoThreeTree {
             updateTree(treeRoot);   // Update the new node
             root = treeRoot;        // Assign root to this node
         } // if else ends here
-    } // mergeRoot() ends here
+    } // insertKey() ends here
 
     // Insert: Returns an array of nodes(max 2 nodes)
     // after inserting the value 
@@ -1016,7 +1016,7 @@ public class TwoThreeTree {
         // Check if the key is present or not in the tree
         if (!search(key)) {
             // If it is not there insert it
-            mergeRoot(key);
+            insertKey(key);
         }
 
         // If the insertion was successful
